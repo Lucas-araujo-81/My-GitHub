@@ -1,40 +1,51 @@
-## **Principais Códigos e Dicas**.
+# **Principais Códigos e Dicas**.
 
-  
-# **Instalação**
+## **Instalação**
+
 https://msysgit.github.com
 
-# ** git config**
+## **git config**
+
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 (_Definir usuário e Email_)
 
-# **git init**
+## **git init**
+
 (_Cria um diretório chamado .git, que contém todos os arquivos necessários_)
 
-# **git clone**
+## **git clone**
+
 git clone git://github.com/schacon/grit.git
 (_clona um diretório direto da web_)
 
-# **git add**
-git add README
-(_Adciona os itens ao monitoraqmento do git, e torna parte do commit_)
+## **git add**
 
-# **git status**
-(_A principal ferramenta utilizada para determinar quais arquivos estão em
-quais estados é o comando,
+git add README
+(_Adciona os itens ao monitoramento do git, e torna parte do commit_)
+
+## **git status**
+
+_A principal ferramenta utilizada para determinar quais arquivos estão em
+quais estados é o comando:_
+
+**git status**
+
  "On branch master
  Untracked files:
  (use "git add {file}..." to include in what will be committed)
 
  README
 nothing added to commit but untracked files present (use "git add" to track)" 
-erros caso execute comando antes do **git add**_)
 
-# **git diff**
+(_erros caso execute comando antes do **git add**_)
+
+## **git diff**
+
 (_Se o comando git status for muito vago — você quer saber exatamente o que você alterou_)
 
-# **git commit*
+## git commit
+
 (_Armazena o conteúdo atual do índice em um novo commit, juntamente com uma mensagem 
 de registro do usuário que descreve as mudanças_.)
 
@@ -50,8 +61,7 @@ de registro do usuário que descreve as mudanças_.)
 
 **git commit -m "Mensagem" --amend**
 
-
-# **git reset**
+## **git reset**
 
 (_Desfazer modificações_)
 
@@ -75,8 +85,8 @@ de registro do usuário que descreve as mudanças_.)
 
 **git merge {hash}**
 
+## **git rm**
 
-# **git rm**
 (_Para remover um arquivo do Git_)
 
  - remove o arquivo do seu diretório para você não ver ele como arquivo não monitorado 
@@ -84,7 +94,8 @@ de registro do usuário que descreve as mudanças_.)
 
 **git rm -f {arquivo}**
 
-# **git mv**
+## **git mv**
+
 (_Diferente de muitos sistemas VCS, o Git não monitora explicitamente arquivos movidos.
 É um pouco confuso que o Git tenha um comando mv_.) 
 
